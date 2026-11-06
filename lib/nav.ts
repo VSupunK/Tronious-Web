@@ -1,6 +1,7 @@
 export type NavLink = { href: string; label: string }
 
 export const NAV_LINKS: NavLink[] = [
+  { href: '/', label: 'Home' },
   { href: '/services', label: 'Services' },
   { href: '/engineering', label: 'Engineering' },
   { href: '/manufacturing', label: 'Manufacturing' },
@@ -30,7 +31,7 @@ export const FOOTER_WORK_LINKS: NavLink[] = [
 ]
 
 export const FOOTER_LEGAL_LINKS: NavLink[] = [
-  { href: '/legal', label: 'Privacy policy' },
-  { href: '/legal', label: 'Terms of use' },
-  { href: '/legal', label: 'Cookie policy' },
+  { href: '/legal#privacy', label: 'Privacy policy' },
+  { href: '/legal#terms', label: 'Terms of use' },
+  { href: '/legal#cookies', label: 'Cookie policy' },
 ]
